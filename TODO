@@ -1,0 +1,13 @@
+Functions to add:
+1. pg_sip_valid => Function to parse single sip packet as input, and run set of validation tests and return boolean. Log any issues.
+2. pg_sip_header => Function to parse single sip packet as input and a text input for header name, return array of matching headers.
+3. pg_sip_header_first => Like pg_sip_header except returns only the first header as a text string
+4. pg_sip_sdp_media_count => Take sip packet with SDP, return number of media streams
+5. pg_sip_sdp_crypto_present => Take sip packet with SDP, return boolean if crypto lines present
+
+Funciton ideas:
+1. Dialog => take list of rows and perform analysis on a per dialog basis
+   a. Look for common issues such as retransmits, etc.
+2. Take a dialog and identify and provide access to transactions
+3. SDP attribute accessors
+
