@@ -1,0 +1,7 @@
+CREATE EXTENSION pg_sip;
+select pg_sip_version();
+ pg_sip_version 
+----------------
+ 0.0.1
+(1 row)
+
