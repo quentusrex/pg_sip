@@ -2,7 +2,7 @@
 #include <fmgr.h>
 #include "utils/builtins.h"
 
-#include <re/re.h>
+#include <re.h>
 /*
 #include <re/re_sa.h>
 #include <re/re_fmt.h>

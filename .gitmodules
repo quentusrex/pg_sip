@@ -1,0 +1,3 @@
+[submodule "libs/libre_pg_sip_fork"]
+	path = libs/libre
+	url = git@github.com:quentusrex/libre_pg_sip_fork.git
